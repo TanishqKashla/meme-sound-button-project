@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #53BF9D;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(255, 197, 77);
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(104, 79, 30, 0.7);
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    width: 250px;
+    padding: 25px 25px;
+    margin: 10px 10px;
+    background-color: rgb(249, 76, 102);
+    color: white;
+    border: none;
+    font-size: 40px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+    background-image: url(https://www.windowslatest.com/wp-content/uploads/2018/04/Windows-XP.jpg);
+    background-size: cover;
+}
+
+.btn:hover {
+    background-color: rgb(223, 70, 93);
+}
+
+.btn:active {
+    box-shadow: none;
+
+}
+
+.stopbtn {
+    padding: 20px 100px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.stopbtn:active {
+    box-shadow: none;
+}
